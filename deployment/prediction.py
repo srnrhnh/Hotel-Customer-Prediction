@@ -3,10 +3,8 @@ import pandas as pd
 import joblib
 
 
-
 def  make_prediction():
     st.title('Hotel Reservation Prediction Model')
-    st.write("Created by Serina Roihaanah Mulawati")
     st.header('',divider='rainbow')
 
     st.markdown(
@@ -91,12 +89,12 @@ def  make_prediction():
 
     prediction = load_model.predict(input_data)
 
-    if prediction  == 1:
+    if prediction  == 0:
         prediction_label = 'Will Not Cancel'
-        color = 'blue'  # Set color to red for 'Will Not Cancel'
+        color = 'blue'  # Set color to blue for 'Will Not Cancel'
     else:
         prediction_label = 'Will Cancel'
-        color = 'red'  # Set color to blue for 'Will Cancel'
+        color = 'red'  # Set color to red for 'Will Cancel'
 
     # Display the prediction message
     st.write('Based on user input, the prediction model predicted: ')
