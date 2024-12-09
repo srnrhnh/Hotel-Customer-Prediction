@@ -1,5 +1,6 @@
 <div align='center'>
     <h1><b>Hotel Customer Prediction</b></h1>
+</div>
 This program is designed to predict whether a hotel customer will cancel their reservation. The analysis begins with data cleaning and preprocessing to ensure consistency and accuracy. It then uses machine learning models to predict customer cancellation behavior based on historical data. The aim of this project is to provide actionable insights that can help hotel management reduce cancellations and improve customer retention.
 
 ## **Data Sources 📊**
